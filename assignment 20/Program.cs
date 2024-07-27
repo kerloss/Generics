@@ -39,18 +39,19 @@ namespace assignment_20
             //4.	Implement a method Length() that returns the length of the range (the difference between the maximum and minimum values).
             //5.	Note: You can assume that the type T used in the Range<T> class implements the IComparable<T> interface to allow for comparisons.
 
-            Range<int> intRange = new Range<int>(5,15);
-            Console.WriteLine(intRange);  // Output: Range: [5 - 15]
-            Console.WriteLine("Length: " + intRange.length());  // Output: Length: 10
-            Console.WriteLine("Is 10 in range: " + intRange.IsRange(10));  // Output: True
-            Console.WriteLine("Is 20 in range: " + intRange.IsRange(20));  // Output: False
+            ////int range example
+            //Range<int> intRange = new Range<int>(5,15);
+            //Console.WriteLine(intRange);  // Output: Range: [5 - 15]
+            //Console.WriteLine("Length: " + intRange.length());  // Output: Length: 10
+            //Console.WriteLine("Is 10 in range: " + intRange.IsRange(10));  // Output: True
+            //Console.WriteLine("Is 20 in range: " + intRange.IsRange(20));  // Output: False
 
-            // Double range example
-            Range<double> doubleRange = new Range<double>(1.5, 6.5);
-            Console.WriteLine(doubleRange);  // Output: Range: [1.5 - 5.8]
-            Console.WriteLine("Length: " + doubleRange.length());  // Output: Length: 4.3
-            Console.WriteLine("Is 3.2 in range: " + doubleRange.IsRange(3.2));  // Output: True
-            Console.WriteLine("Is 6.0 in range: " + doubleRange.IsRange(6.0));  // Output: False
+            ////double range example
+            //Range<double> doubleRange = new Range<double>(1.5, 6.5);
+            //Console.WriteLine(doubleRange);  // Output: Range: [1.5 - 5.8]
+            //Console.WriteLine("Length: " + doubleRange.length());  // Output: Length: 4.3
+            //Console.WriteLine("Is 3.2 in range: " + doubleRange.IsRange(3.2));  // Output: True
+            //Console.WriteLine("Is 6.0 in range: " + doubleRange.IsRange(6.0));  // Output: False
         }
 
         #endregion
